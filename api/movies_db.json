@@ -1,36 +1,524 @@
 {
   "movies": [
     {
-      "title": "Tron: Ares",
-      "releaseDate": "2025-10-10",
-      "genreId": 1,
+      "title": "Christy",
+      "releaseDate": "2025-10-25",
+      "genreId": 5,
+      "genreId2": 2,
+      "rating": "R",
+      "runtimeMinutes": 135,
+      "id": 1,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": "for language, violence/bloody images, some drug use and sexual material."
+    },
+    {
+      "title": "Die My Love",
+      "releaseDate": "2025-10-25",
+      "genreId": 2,
+      "genreId2": 6,
+      "genreId3": 7,
+      "rating": "R",
+      "runtimeMinutes": 118,
+      "id": 2,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": "for sexual content, graphic nudity, language, and some violent content."
+    },
+    {
+      "title": "Nuremberg",
+      "releaseDate": "2025-10-25",
+      "genreId": 8,
+      "genreId2": 2,
       "rating": "PG-13",
+      "runtimeMinutes": 148,
+      "id": 3,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": "for violent content involving the Holocaust, strong disturbing images, suicide, some language, smoking and brief drug content."
+    },
+    {
+      "title": "Predator: Badlands",
+      "releaseDate": "2025-10-25",
+      "genreId": 4,
+      "genreId2": 1,
+      "genreId3": 3,
+      "rating": "PG-13",
+      "runtimeMinutes": 107,
+      "id": 4,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": "for sequences of strong sci-fi violence."
+    },
+    {
+      "title": "Sarah’s Oil",
+      "releaseDate": "2025-10-25",
+      "genreId": 5,
+      "genreId2": 2,
+      "rating": "PG",
+      "runtimeMinutes": 103,
+      "id": 5,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": "for thematic content, some violence, language including racial slurs, a suggestive reference and brief smoking."
+    },
+    {
+      "title": "Bugonia",
+      "releaseDate": "2025-10-23",
+      "genreId": 4,
+      "genreId2": 7,
+      "rating": "R",
       "runtimeMinutes": 119,
-      "id": 1
+      "id": 6,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": "for bloody violent content including a suicide, grisly images and language"
+    },
+    {
+      "title": "Chainsaw Man – The Movie: Reze Arc",
+      "releaseDate": "2025-10-25",
+      "genreId": 9,
+      "genreId2": 1,
+      "genreId3": 3,
+      "genreId4": 10,
+      "genreId5": 11,
+      "rating": "R",
+      "runtimeMinutes": 101,
+      "id": 7,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": null
+    },
+    {
+      "title": "Regretting You",
+      "releaseDate": "2025-10-25",
+      "genreId": 2,
+      "genreId2": 12,
+      "rating": "PG-13",
+      "runtimeMinutes": 117,
+      "id": 8,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": "for sexual content, teen drug and alcohol use, and brief strong language."
     },
     {
       "title": "Black Phone 2",
       "releaseDate": "2025-10-17",
-      "genreId": 2,
+      "genreId": 3,
+      "genreId2": 6,
       "rating": "R",
       "runtimeMinutes": 114,
-      "id": 2
+      "id": 9,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": "for strong violent content, gore, teen drug use, and language."
     },
     {
-      "title": "Tim Burton's Corpse Bride",
-      "releaseDate": "2005-09-23",
-      "genreId": 3,
-      "rating": "PG",
-      "runtimeMinutes": 77,
-      "id": 3
-    },
-    {
-      "title": "Bugonia",
-      "releaseDate": "2025-10-231",
+      "title": "Roofman",
+      "releaseDate": "2025-10-25",
       "genreId": 2,
+      "genreId2": 6,
+      "genreId3": 7,
       "rating": "R",
-      "runtimeMinutes": 120,
-      "id": 4
+      "runtimeMinutes": 126,
+      "id": 10,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": "for language, nudity and brief sexuality."
+    },
+    {
+      "title": "The Conjuring: Last Rites",
+      "releaseDate": "2025-10-25",
+      "genreId": 3,
+      "rating": "R",
+      "runtimeMinutes": 135,
+      "id": 11,
+      "isInTheaters": true,
+      "status": "released",
+      "advisory": "for bloody/violent content and terror."
+    },
+    {
+      "title": "Now You See Me: Now You Don't",
+      "releaseDate": "2025-11-20",
+      "genreId": 6,
+      "genreId2": 10,
+      "genreId3": 7,
+      "rating": "PG-13",
+      "runtimeMinutes": 113,
+      "id": 12,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for some strong language, violence and suggestive references."
+    },
+    {
+      "title": "The Running Man",
+      "releaseDate": "2025-12-05",
+      "genreId": 4,
+      "genreId2": 6,
+      "genreId3": 1,
+      "rating": "R",
+      "runtimeMinutes": 134,
+      "id": 13,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for strong violence, some gore, and language."
+    },
+    {
+      "title": "Wicked Re-Release",
+      "releaseDate": "2025-11-20",
+      "genreId": 11,
+      "genreId2": 10,
+      "genreId3": 12,
+      "rating": "PG",
+      "runtimeMinutes": 160,
+      "id": 14,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "We Are Marshall",
+      "releaseDate": "2025-11-27",
+      "genreId": 13,
+      "rating": "PG",
+      "runtimeMinutes": 124,
+      "id": 15,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "The Boy and The Heron – Studio Ghibli Fest 2025",
+      "releaseDate": "2025-12-10",
+      "genreId": 9,
+      "rating": "PG-13",
+      "runtimeMinutes": 134,
+      "id": 16,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Wicked: For Good - Premium Early Access Screening",
+      "releaseDate": "2025-11-21",
+      "genreId": 11,
+      "genreId2": 12,
+      "genreId3": 10,
+      "rating": "PG",
+      "runtimeMinutes": 137,
+      "id": 17,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Sisu: Road To Revenge",
+      "releaseDate": "2025-12-12",
+      "genreId": 1,
+      "rating": "R",
+      "runtimeMinutes": 88,
+      "id": 18,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for strong bloody violence, gore and language."
+    },
+    {
+      "title": "Wicked: For Good",
+      "releaseDate": "2025-12-19",
+      "genreId": 11,
+      "genreId2": 10,
+      "genreId3": 12,
+      "rating": "PG",
+      "runtimeMinutes": 137,
+      "id": 19,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for action/violence, some suggestive material and thematic material."
+    },
+    {
+      "title": "Wicked + Wicked: For Good Double Feature",
+      "releaseDate": "2025-12-19",
+      "genreId": 11,
+      "genreId2": 10,
+      "genreId3": 12,
+      "rating": "PG",
+      "runtimeMinutes": 313,
+      "id": 20,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Zootopia 2",
+      "releaseDate": "2025-11-28",
+      "genreId": 9,
+      "genreId2": 10,
+      "genreId3": 7,
+      "rating": "PG",
+      "runtimeMinutes": 108,
+      "id": 21,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "The Sound of Music 60th Anniversary",
+      "releaseDate": "2025-11-28",
+      "genreId": 12,
+      "genreId2": 10,
+      "rating": "G",
+      "runtimeMinutes": 179,
+      "id": 22,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Keeper",
+      "releaseDate": "2025-12-05",
+      "genreId": 3,
+      "rating": "R",
+      "runtimeMinutes": 99,
+      "id": 23,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for some violent content/gore, language, and some sexual references."
+    },
+    {
+      "title": "UFC 322: Della Maddalena vs. Makhachev",
+      "releaseDate": "2025-12-05",
+      "genreId": 14,
+      "rating": "NR",
+      "runtimeMinutes": 180,
+      "id": 24,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "The Polar Express",
+      "releaseDate": "2025-11-28",
+      "genreId": 9,
+      "genreId2": 10,
+      "genreId3": 7,
+      "rating": "G",
+      "runtimeMinutes": 99,
+      "id": 25,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Rental Family",
+      "releaseDate": "2025-12-05",
+      "genreId": 7,
+      "genreId2": 2,
+      "rating": "PG-13",
+      "runtimeMinutes": 103,
+      "id": 26,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for thematic elements, some strong language, and suggestive material."
+    },
+    {
+      "title": "The Metropolitan Opera: Arabella",
+      "releaseDate": "2025-12-12",
+      "genreId": 15,
+      "rating": "NR",
+      "runtimeMinutes": 252,
+      "id": 27,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Eternity",
+      "releaseDate": "2025-12-12",
+      "genreId": 7,
+      "genreId2": 12,
+      "rating": "PG-13",
+      "runtimeMinutes": 112,
+      "id": 28,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for sexual content and some strong language."
+    },
+    {
+      "title": "The Holiday",
+      "releaseDate": "2025-12-19",
+      "genreId": 7,
+      "genreId2": 12,
+      "rating": "PG-13",
+      "runtimeMinutes": 131,
+      "id": 29,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Five Nights At Freddy's 2",
+      "releaseDate": "2025-12-05",
+      "genreId": 3,
+      "rating": "PG-13",
+      "runtimeMinutes": 104,
+      "id": 30,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for violent content, terror and some language."
+    },
+    {
+      "title": "JUJUTSU KAISEN: Execution",
+      "releaseDate": "2025-12-12",
+      "genreId": 9,
+      "genreId2": 1,
+      "genreId3": 3,
+      "rating": "NR",
+      "runtimeMinutes": 90,
+      "id": 31,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Merrily We Roll Along",
+      "releaseDate": "2025-12-19",
+      "genreId": 16,
+      "genreId2": 12,
+      "rating": "PG-13",
+      "runtimeMinutes": 145,
+      "id": 32,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for drug use, some strong language, and smoking."
+    },
+    {
+      "title": "Ella McCay",
+      "releaseDate": "2025-12-19",
+      "genreId": 13,
+      "genreId2": 2,
+      "rating": "NR",
+      "runtimeMinutes": null,
+      "id": 33,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Silent Night, Deadly Night",
+      "releaseDate": "2025-12-26",
+      "genreId": 3,
+      "genreId2": 6,
+      "rating": "R",
+      "runtimeMinutes": null,
+      "id": 34,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "The Metropolitan Opera: Andrea Chénier",
+      "releaseDate": "2026-01-02",
+      "genreId": 15,
+      "rating": "NR",
+      "runtimeMinutes": 211,
+      "id": 35,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Avatar: Fire and Ash",
+      "releaseDate": "2026-01-09",
+      "genreId": 4,
+      "genreId2": 10,
+      "genreId3": 9,
+      "rating": "PG-13",
+      "runtimeMinutes": 192,
+      "id": 36,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for intense sequences of violence and action, bloody images, some strong language, thematic elements and suggestive material."
+    },
+    {
+      "title": "The Housemaid",
+      "releaseDate": "2025-12-26",
+      "genreId": 6,
+      "rating": "R",
+      "runtimeMinutes": null,
+      "id": 37,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for strong/bloody violent content, sexual assault, sexual content, nudity and language."
+    },
+    {
+      "title": "The SpongeBob Movie: Search for SquarePants",
+      "releaseDate": "2025-12-19",
+      "genreId": 7,
+      "genreId2": 10,
+      "genreId3": 9,
+      "rating": "PG",
+      "runtimeMinutes": null,
+      "id": 38,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": "for rude humor, some thematic elements, and mild language."
+    },
+    {
+      "title": "Anaconda",
+      "releaseDate": "2026-01-02",
+      "genreId": 1,
+      "genreId2": 6,
+      "rating": "NR",
+      "runtimeMinutes": null,
+      "id": 39,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Marty Supreme",
+      "releaseDate": "2026-01-09",
+      "genreId": 2,
+      "genreId2": 5,
+      "rating": "NR",
+      "runtimeMinutes": null,
+      "id": 40,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "GHOST: Rite Here Rite Now",
+      "releaseDate": "2026-01-16",
+      "genreId": 17,
+      "rating": "NR",
+      "runtimeMinutes": 145,
+      "id": 41,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Ponyo - Studio Ghibli Fest 2024",
+      "releaseDate": "2025-11-20",
+      "genreId": 9,
+      "rating": "G",
+      "runtimeMinutes": 115,
+      "id": 42,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
+    },
+    {
+      "title": "Princess Mononoke - Studio Ghibli Fest 2024",
+      "releaseDate": "2025-12-03",
+      "genreId": 9,
+      "rating": "PG-13",
+      "runtimeMinutes": 145,
+      "id": 43,
+      "isInTheaters": false,
+      "status": "upcoming",
+      "advisory": null
     }
   ],
   "genres": [
@@ -40,19 +528,241 @@
       "id": 1
     },
     {
-      "name": "Horror",
-      "description": "Atmospheric, dreadful, suspenseful, and shocking.",
+      "name": "Drama",
+      "description": "Serious, character-driven storytelling.",
       "id": 2
     },
     {
-      "name": "Family",
-      "description": "Content suitable for children and adults; typically animated or light-hearted live action.",
+      "name": "Horror",
+      "description": "Atmospheric, dreadful, suspenseful, and shocking.",
       "id": 3
     },
     {
-      "name": "Sci-Fi",
+      "name": "Science fiction",
       "description": "Stories centered around futuristic science, technology, and space exploration.",
       "id": 4
+    },
+    {
+      "name": "Biopic",
+      "description": "A biographical film dramatizing the life of a non-fictional person.",
+      "id": 5
+    },
+    {
+      "name": "Thriller",
+      "description": "Exciting and suspenseful films with a fast-paced plot.",
+      "id": 6
+    },
+    {
+      "name": "Comedy",
+      "description": "Light-hearted plot intended to amuse.",
+      "id": 7
+    },
+    {
+      "name": "Historical",
+      "description": "Based on real historical events, figures, or time periods.",
+      "id": 8
+    },
+    {
+      "name": "Animation",
+      "description": "Motion pictures created from drawings, computer graphics, or photographs of inanimate objects.",
+      "id": 9
+    },
+    {
+      "name": "Adventure",
+      "description": "Exciting journeys or quests in exotic locations.",
+      "id": 10
+    },
+    {
+      "name": "Fantasy",
+      "description": "Involves magical or supernatural elements, typically in a fictional world.",
+      "id": 11
+    },
+    {
+      "name": "Romance",
+      "description": "Focuses on passion, emotion, and the affectionate involvement of characters.",
+      "id": 12
+    },
+    {
+      "name": "Comedy drama",
+      "description": "Blends humor with serious themes, often focused on character development.",
+      "id": 13
+    },
+    {
+      "name": "Sport event",
+      "description": "Live broadcast or presentation of a professional sporting event.",
+      "id": 14
+    },
+    {
+      "name": "Opera",
+      "description": "A theatrical work set to music, presented in a performance format.",
+      "id": 15
+    },
+    {
+      "name": "Show",
+      "description": "A filmed stage production or special theatrical event.",
+      "id": 16
+    },
+    {
+      "name": "Concert",
+      "description": "A filmed musical performance or documentary.",
+      "id": 17
+    }
+  ],
+  "showtimes": [
+    {
+      "movieId": 1,
+      "showDate": "2025-10-25",
+      "format": "Standard",
+      "times": [
+        "12:20PM",
+        "3:20PM",
+        "6:20PM",
+        "9:20PM"
+      ]
+    },
+    {
+      "movieId": 2,
+      "showDate": "2025-10-25",
+      "format": "Standard",
+      "times": [
+        "12:20PM",
+        "3:20PM",
+        "6:45PM",
+        "9:45PM"
+      ]
+    },
+    {
+      "movieId": 3,
+      "showDate": "2025-10-25",
+      "format": "Standard",
+      "times": [
+        "1:10PM",
+        "4:30PM",
+        "8:00PM"
+      ]
+    },
+    {
+      "movieId": 4,
+      "showDate": "2025-10-25",
+      "format": "Standard showtimes",
+      "times": [
+        "12:00PM",
+        "3:00PM",
+        "3:30PM",
+        "6:00PM",
+        "8:35PM",
+        "9:05PM"
+      ]
+    },
+    {
+      "movieId": 4,
+      "showDate": "2025-10-25",
+      "format": "MXC",
+      "times": [
+        "1:00PM",
+        "4:00PM",
+        "7:00PM",
+        "9:35PM"
+      ]
+    },
+    {
+      "movieId": 4,
+      "showDate": "2025-10-25",
+      "format": "Other",
+      "times": [
+        "12:30PM",
+        "6:30PM"
+      ]
+    },
+    {
+      "movieId": 5,
+      "showDate": "2025-10-25",
+      "format": "Standard",
+      "times": [
+        "12:40PM",
+        "3:40PM",
+        "6:40PM",
+        "9:10PM"
+      ]
+    },
+    {
+      "movieId": 6,
+      "showDate": "2025-10-25",
+      "format": "Standard",
+      "times": [
+        "1:00PM",
+        "4:00PM",
+        "9:45PM"
+      ]
+    },
+    {
+      "movieId": 7,
+      "showDate": "2025-10-25",
+      "format": "Subtitled",
+      "times": [
+        "1:00PM",
+        "7:00PM",
+        "9:40PM"
+      ]
+    },
+    {
+      "movieId": 7,
+      "showDate": "2025-10-25",
+      "format": "Dubbed",
+      "times": [
+        "4:00PM"
+      ]
+    },
+    {
+      "movieId": 8,
+      "showDate": "2025-10-25",
+      "format": "Standard showtimes",
+      "times": [
+        "3:50PM",
+        "9:45PM"
+      ]
+    },
+    {
+      "movieId": 8,
+      "showDate": "2025-10-25",
+      "format": "MXC",
+      "times": [
+        "12:50PM",
+        "6:50PM"
+      ]
+    },
+    {
+      "movieId": 9,
+      "showDate": "2025-10-25",
+      "format": "Standard showtimes",
+      "times": [
+        "1:10PM",
+        "7:10PM"
+      ]
+    },
+    {
+      "movieId": 9,
+      "showDate": "2025-10-25",
+      "format": "MXC",
+      "times": [
+        "4:10PM",
+        "9:50PM"
+      ]
+    },
+    {
+      "movieId": 10,
+      "showDate": "2025-10-25",
+      "format": "Standard",
+      "times": [
+        "12:25PM",
+        "3:25PM"
+      ]
+    },
+    {
+      "movieId": 11,
+      "showDate": "2025-10-25",
+      "format": "Standard",
+      "times": []
     }
   ]
 }
